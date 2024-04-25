@@ -1,0 +1,17 @@
+/*asterisk wildcard selector to override browser default styles*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  header {
+    background-color: pink;
+  }
+
+  main {
+    background-color: lightblue; }
+
+  footer {
+background-color:lightseagreen
+    }
