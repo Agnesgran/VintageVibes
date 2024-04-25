@@ -55,6 +55,18 @@ menu>li {
 .active {
   border-bottom: 1px solid #4B4265;
 }
+/*navbar styles with dropdown toggle*/
+nav {
+  position: absolute;
+  left: 0;
+  background-color: #F1E3D3;
+  width: 100%;
+  margin: 0;
+  padding: 0 1rem;
+  box-shadow: 0 2px 2px #3a3a3a;
+  display: none;
+  top: 100%
+}
 
 main {
   background-color: lightblue;
