@@ -100,10 +100,10 @@ main {
 .hero {
   height: 100vh;
   width: 100%;
-  background: url("../images/pexels-ian-panelo-6783234.jpg") no-repeat center center/cover;
+  background: url("../images/vintagevibes.jpg") no-repeat center center/cover;
   position: relative;
 }
-
+/*main content*/
 #landingpage {
   font-family: 'montserrat', sans-serif;
   background: rgba(40, 75, 99, 0.9);
@@ -116,6 +116,7 @@ main {
   margin: 0;
   padding: 0px;
   border-radius: 0px 0px 90px 90px;
+  box-shadow: 0 2px 3px #353535;
 }
 
 .circle h2 {
@@ -135,6 +136,7 @@ main {
   top: calc(66.6% - 165px);
   left: 50%;
   transform: translateX(-50%);
+  box-shadow: 5px 30px 30px inset rgba(40, 75, 99, 0.9);
 }
 
 #about1 {
@@ -149,6 +151,7 @@ main {
   margin: 0;
   padding: 0px;
   border-radius: 0px 0px 90px 90px;
+  box-shadow: 2px 2px 3px #353535;
 }
 
 #about2 {
@@ -162,6 +165,7 @@ main {
   align-items: center;
   margin-top: 20px;
   text-align:center;
+  box-shadow: 5px 30px 50px inset rgba(40, 75, 99, 0.9);
 }
 
 #about3 {
@@ -175,6 +179,7 @@ main {
   align-items: center;
   text-align:center;
   margin-top: 20px;
+  box-shadow: 5px 30px 50px inset rgba(158, 143, 178, .8);
 }
 
 
@@ -231,6 +236,7 @@ footer
     /*main content*/
     main {
       margin-top: 75px;
+      font-size: 150%;
     }
   }
 
