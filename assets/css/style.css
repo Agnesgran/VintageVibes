@@ -88,13 +88,13 @@ main {
 
   /*make main element take up surplus space to push footer down*/
   flex: 1 0 auto;
-  margin-top: 40px;
+  margin-top: 35px;
 }
 /*hero section*/
 #hero{
-height:600px;
+height:800px;
 width:100%;
-background-color: lightcoral;
+background: url("../images/pexels-ian-panelo-6783234.jpg") no-repeat center center/cover;
 }
 
 
@@ -135,7 +135,7 @@ footer {
 
   /*main content*/
   main {
-    margin-top: 78px;
+    margin-top: 75px;
   }
 }
 
