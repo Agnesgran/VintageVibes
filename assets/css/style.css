@@ -97,7 +97,7 @@ main {
 }
 
 /*hero section*/
-#hero {
+.hero {
   height: 100vh;
   width: 100%;
   background: url("../images/pexels-ian-panelo-6783234.jpg") no-repeat center center/cover;
@@ -137,6 +137,46 @@ main {
   transform: translateX(-50%);
 }
 
+#about1 {
+  font-family: 'montserrat', sans-serif;
+  background: rgba(40, 75, 99, 0.9);
+  width: 100%;
+  height: 250px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0px;
+  border-radius: 0px 0px 90px 90px;
+}
+
+#about2 {
+  font-family: 'montserrat', sans-serif;
+  width: 100%;
+  height: 170px;
+  background-color: rgba(158, 143, 178, .8);
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  text-align:center;
+}
+
+#about3 {
+  font-family: 'montserrat', sans-serif;
+  width: 100%;
+  height: 170px;
+  background-color: rgba(60, 110, 113, .8);
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align:center;
+  margin-top: 20px;
+}
+
 
 /*footer*/
 footer {
@@ -150,7 +190,7 @@ footer {
     justify-content: space-evenly;
     list-style-type: none;
   }
-  
+
   #social-networks i {
     font-size: 160%;
     padding: 5%;
