@@ -8,7 +8,7 @@
   margin: 0;
   box-sizing: border-box;
 }
-
+/*general styles*/
 body {
   min-height: 100vh;
   display: flex;
@@ -18,7 +18,13 @@ body {
   font-family: 'Montserrat',
     sans-serif;
 }
-
+h1,h2,h3 {
+  font-family: 'Montserrat Subrayada', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0px;
+  color: whitesmoke;
+}
+/*header*/
 header {
   background-color: #353535;
   padding: 0 1rem;
@@ -36,12 +42,6 @@ header a {
   color: inherit;
 }
 
-h1 {
-  font-family: 'Montserrat Subrayada', sans-serif;
-  text-transform: uppercase;
-  letter-spacing: 0px;
-  color: whitesmoke;
-}
 
 #menu {
   font-size: 110%;
@@ -95,9 +95,43 @@ main {
 height:800px;
 width:100%;
 background: url("../images/pexels-ian-panelo-6783234.jpg") no-repeat center center/cover;
+position:relative;
+}
+#landingpage{
+   font-family: 'montserrat', sans-serif;
+    background: rgba(40, 75, 99, 0.9);
+    width: 100%;
+    height: 250px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  margin:0;
+  padding:0px;
+border-radius: 0px 0px 90px 90px;}
+.circle
+h2
+{
+
+font-family: 'montserrat', sans-serif;
+  width: 250px;
+  height: 250px;
+  line-height: 50px;
+  border-radius: 50%;
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+  background: rgba(60, 110, 113, .7);
+  padding-top:50px;
+  margin-top:50px;
+  position: absolute;
+  top: calc(66.6% - 165px);
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 
+/*footer*/
 footer {
   background-color: lightseagreen
 }
