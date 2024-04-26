@@ -179,7 +179,7 @@ main {
 
 
 /*footer*/
-footer {
+footer
   #social-networks {
     position: fixed;
     bottom: 0;
@@ -237,6 +237,5 @@ footer {
   @media screen and (min-width: 992px) {
     #menu a:hover {
       border-bottom: 1px solid #353535;
-
     }
   }
