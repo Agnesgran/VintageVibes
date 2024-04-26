@@ -34,7 +34,18 @@
     </nav>
   </header>
 
-  <main>
+  <main class="hero">
+    <form>
+      <form action="/submit-form" method="post">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" placeholder="Your name" required><br><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" placeholder="Email Adress"><br><br>
+        <label for="subject">Subject:</label><br>
+        <input type="text" id="subject" name="subject" placeholder="Subject"><br><br>
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="4" required></textarea><br><br>
+      </form>
   </main>
 
   <footer>
