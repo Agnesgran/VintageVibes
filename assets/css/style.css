@@ -14,18 +14,18 @@ body {
   display: flex;
   flex-direction: column;
   /*generic project styles*/
-  color: #3a3a3a;
+  color: whitesmoke;
   font-family: 'Montserrat',
     sans-serif;
 }
 
 header {
-  background-color: #F1E3D3;
+  background-color: #353535;
   padding: 0 1rem;
   position: fixed;
   z-index: 99;
   width: 100%;
-  box-shadow: 0 2px 3px #3a3a3a;
+  box-shadow: 0 2px 3px black;
   display: flex;
   justify-content: space-between;
   align-items: baseline;
@@ -40,7 +40,7 @@ h1 {
   font-family: 'Montserrat Subrayada', sans-serif;
   text-transform: uppercase;
   letter-spacing: 0px;
-  color: #4B4265;
+  color: whitesmoke;
 }
 
 #menu {
@@ -54,18 +54,18 @@ menu>li {
 }
 
 .active {
-  border-bottom: 1px solid #4B4265;
+  border-bottom: 1px solid whitesmoke;
 }
 
 /*navbar styles with dropdown toggle*/
 nav {
   position: absolute;
   left: 0;
-  background-color: #F1E3D3;
+  background-color: #353535;
   width: 100%;
   margin: 0;
   padding: 0 1rem;
-  box-shadow: 0 2px 2px #3a3a3a;
+  box-shadow: 0 2px 2px black;
   display: none;
   top: 100%
 }
@@ -81,14 +81,22 @@ nav {
 
 .nav-toggle-label {
   font-size: 2rem;
+  color:whitesmoke;
 }
 
 main {
-  background-color: lightblue;
+
   /*make main element take up surplus space to push footer down*/
   flex: 1 0 auto;
   margin-top: 40px;
 }
+/*hero section*/
+#hero{
+height:600px;
+width:100%;
+background-color: lightcoral;
+}
+
 
 footer {
   background-color: lightseagreen
@@ -133,7 +141,7 @@ footer {
 
 @media screen and (min-width: 992px) {
   #menu a:hover {
-    border-bottom: 1px solid #4B4265;
+    border-bottom: 1px solid #353535;
 
   }
 }
