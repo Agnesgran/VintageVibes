@@ -213,6 +213,12 @@ border-bottom: 2px solid #ca6702;
 outline: none; 
 background-color:transparent;
 }
+.submit-button{
+  font-size: large;
+  background-color: #ca6702;
+  color:#353535
+
+}
 
 
 /*footer*/
