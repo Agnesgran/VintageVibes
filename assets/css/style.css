@@ -33,7 +33,7 @@ h3 {
 header {
   background-color: #353535;
   padding: 0 1rem;
-  position: fixed;
+  /* position: fixed; */
   z-index: 99;
   width: 100%;
   box-shadow: 0 2px 3px black;
@@ -46,7 +46,6 @@ header a {
   text-decoration: none;
   color: inherit;
 }
-
 
 #menu {
   font-size: 110%;
@@ -68,17 +67,18 @@ nav {
   left: 0;
   background-color: #353535;
   width: 100%;
-  margin: 0;
+  /* margin: 0; */
   padding: 0 1rem;
   box-shadow: 0 2px 2px black;
   display: none;
-  top: 100%
+  top: 5%;
 }
 
 /*nav toggle*/
 #nav-toggle:checked~nav {
   display: block;
 }
+
 
 #nav-toggle {
   display: none;
@@ -93,14 +93,14 @@ main {
 
   /*make main element take up surplus space to push footer down*/
   flex: 1 0 auto;
-  margin-top: 35px;
+  margin: top 0;
 }
 
 /*hero section*/
 .hero {
   height: 100vh;
   width: 100%;
-  background: url("../images/vintagevibes_1920x1280_1_.jpg") #353535 no-repeat center center/cover;
+  background: url("../images/vintagevibesbackground.jpg") #353535 no-repeat center center/cover;
   position: relative;
 
 }
@@ -150,7 +150,7 @@ main {
   justify-content: center;
   align-items: center;
   margin: 0;
-  padding: 0px;
+  padding: 10px;
   border-radius: 0px 0px 90px 90px;
   box-shadow: 2px 2px 3px #353535;
 }
@@ -217,7 +217,7 @@ background-color:transparent;
 
 /*footer*/
 #social-networks {
-  position: fixed;
+  /* position: fixed; */
   bottom: 0;
   width: 100%;
   text-align: center;
@@ -225,6 +225,7 @@ background-color:transparent;
   display: flex;
   justify-content: space-evenly;
   list-style-type: none;
+  background-color: rgba(40, 75, 99, 0.99);
 }
 
 #social-networks i {
@@ -265,7 +266,7 @@ background-color:transparent;
 
   /* Main content */
   main {
-    margin-top: 75px;
+    margin-top: 0;
     font-size: 120%;
   }
   form {
