@@ -83,7 +83,7 @@ Lenovo Yoga 530,
 Iphone 15 Pro,
 Samsung galaxy s20.
 
--Browsers: 
+- Browsers: 
 Safari,
 Google Chrome,
 Microsoft Edge,
