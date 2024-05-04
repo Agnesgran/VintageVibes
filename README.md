@@ -89,9 +89,9 @@ Google Chrome,
 Microsoft Edge,
 Mozilla Firefox.
 
--The pages appear as intended on all devices and browsers. 
+- The pages appear as intended on all devices and browsers. 
 
--No known bugs left unsolved.
+- No known bugs left unsolved.
 
 ## Deployment
 
