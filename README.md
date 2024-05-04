@@ -107,13 +107,16 @@ The live link can be found here - https://agnesgran.github.io/VintageVibes/
 
 ### Content 
 
-- Love Running Walkthrough project
-- Love Running Walkthrough project readme template
-- W3 Schools (https://www.w3schools.com/)
 - Colour palette from coolors (https://coolors.co/)
 - The icons in the footer were taken from font awesome (https://fontawesome.com/)
 - Favicon is created at (https://favicon.io/)
 - Fonts used were found on google fonts. (https://fonts.google.com/)
+
+### Reference Material
+
+- Love Running Walkthrough project
+- Love Running Walkthrough project readme template
+- W3 Schools (https://www.w3schools.com/)
 
 ### Media
 
